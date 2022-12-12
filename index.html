@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
+  <script src="js/scripts.js"></script>
+  <title>Celebrity Dating Quiz</title>
+</head>
+
+<body>
+  <div>
+    <h1>Celebrity Dating Quiz</h1>
+    <p>Input your answers into to buttons below to find out which celeb you are most compatible with.</p>
+    <p>Favorite Ice Cream</p>
+    <ul>
+      <li>Mint</li>
+      <li>Cheesecake</li>
+    </ul>
+    <p>Favorite Season</p>
+    <ul>
+      <li>Spring</li>
+      <li>Winter</li>
+      <li>Summer</li>
+      <li>Autumn</li>
+    </ul>
+
+    <form id="userInfo">
+      <p id="error-message" class="hidden">Please enter an approved answer!</p>
+      <label for="favoriteIceCream">Favorite Ice Cream</label>
+      <input id="favoriteIceCream" type="text" name="favIceCream">
+      <label for="favoriteSeason">Favorite Season</label>
+      <input id="favoriteSeason" type="text" name="favSeason">
+      <button type="submit">Who am I most compatible with!</button>
+    </form>
+    <div id="match" class="hidden">
+      <h1>You have matched with!</h1>
+    </div>  
+    <div id="dave" class="hidden">
+      <img src="img/dave.jfif" alt="A picture of my good friend Dave.">
+      <p>My good friend Dave.</p>
+    </div>
+    <div id="funnyRock" class="hidden">
+      <img src="img/funny_rock.webp" alt="A picture of a funny rock.">
+      <p>This funny rock.</p>
+    </div>
+    <div id="crockWithAGlock" class="hidden">
+      <img src="img/crock_w_glocc.jpg" alt="A picture of a crock with a glock">
+      <p>A crock with a glock.</p>
+    </div>
+    <div id="sirReginald" class="hidden">
+      <img src="img/a-dog-wearing-a-hat-chad-latta.jpg" alt="A dog wearing a hat">
+      <p>Sir Reginald Fitzgerald.</p>
+    </div>
+    <div id="not-an-answer" class="hidden">
+      <h1>Not an approved answer!!</h1>
+    </div>
+
+</body>
+
+</html>

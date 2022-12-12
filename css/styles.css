@@ -1,0 +1,9 @@
+.hidden {
+  display: none;
+}
+
+#error-message {
+  color: red;
+  font-weight: 800;
+  font-size: 80px;
+}
